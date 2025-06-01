@@ -87,8 +87,8 @@ const EducationSection = (props) => {
             setValue={(value) =>
               props.onAddEducation({ ...props.educationInfo, sslcmark: value })
             }
-            error={errors.domain ? true : false}
-            errorMessage={errors.domain ? errors.domain.message : null}
+            error={errors.schoolname1 ? true : false}
+            errorMessage={errors.schoolname1 ? errors.schoolname1.message : null}
           />
           <div></div>
           <Input
@@ -99,10 +99,10 @@ const EducationSection = (props) => {
             multiline={false}
             value={props.educationInfo.schoolname2}
             setValue={(value) =>
-              props.onAddEducation({ ...props.educationInfo, Schoolname2: value })
+              props.onAddEducation({ ...props.educationInfo, schoolname2: value })
             }
-            error={errors.domain ? true : false}
-            errorMessage={errors.domain ? errors.domain.message : null}
+            error={errors.schoolname2 ? true : false}
+            errorMessage={errors.schoolname2 ? errors.schoolname2 : null}
           />
           <div></div>
           <Input
@@ -113,10 +113,13 @@ const EducationSection = (props) => {
             multiline={false}
             value={props.educationInfo.hscmark}
             setValue={(value) =>
-              props.onAddEducation({ ...props.educationInfo, hscmark: value })
+              props.onAddEducation({ 
+                ...props.educationInfo,
+                 hscmark: value,
+               })
             }
-            error={errors.domain ? true : false}
-            errorMessage={errors.domain ? errors.domain.message : null}
+            error={errors.hscmark ? true : false}
+            errorMessage={errors.hscmark ? errors.hscmark.message : null}
           />
           <div></div>
           <Input

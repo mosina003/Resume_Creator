@@ -18,5 +18,5 @@ export { default as TechSkill} from "../Components/TechSkill";
 export {default as TemplateTechSkill} from "../Components/TemplateTechSkill";
 export {default as Projects} from "../Components/Projects";
 export {default as TemplateProject} from "../Components/TemplateProject";
-export {default as Extracurricular} from "/workspaces/resume-builder-react-app/src/Components/Extracurricular.js";
-export {default as TemplateExtracurricular} from "/workspaces/resume-builder-react-app/src/Components/TemplateExtracurricular.js";
+export { default as TemplateExtracurricular } from '../Components/TemplateExtracurricular';
+export { default as Extracurricular } from '../Components/Extracurricular';

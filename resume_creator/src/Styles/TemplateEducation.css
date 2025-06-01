@@ -16,5 +16,11 @@
 
 .education-start-end {
   font-style: italic;
-  margin-left: 4px;
+  margin-left: 4px; /* Overrides 10px above; this is fine */
+}
+
+.template-education-container p {
+  font-size: 14px;
+  font-family: inherit;
+  margin: 4px 0; /* Optional: Adds spacing between lines */
 }

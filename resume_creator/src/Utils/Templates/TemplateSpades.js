@@ -7,8 +7,8 @@ import { data } from "../Data/data";
 import ExperienceSection from "../../Components/ExperienceSection";
 import TemplateEducation from "../../Components/TemplateEducation";
 import TemplateKeySkill from "../../Components/TemplateKeySkill";
-import  TemplateTechSkill  from "../../Components/TemplateTechSkill";
-import TemplateProjects from "/workspaces/resume-builder-react-app/src/Components/TemplateProject.js";
+import TemplateTechSkill  from "../../Components/TemplateTechSkill";
+import TemplateProjects from "../../Components/TemplateProject";
 import TemplateExtracurricular from "../../Components/TemplateExtracurricular";
 
 const Template1 = (props) => {
